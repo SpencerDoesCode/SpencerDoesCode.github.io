@@ -53,7 +53,6 @@ mccabe==0.6.1
 molecule==3.0.5
 monotonic==1.5
 more-itertools==4.2.0
-mysql-connector-python-rf==2.2.2
 netaddr==0.7.19
 netifaces==0.10.4
 nodeenv==1.4.0
