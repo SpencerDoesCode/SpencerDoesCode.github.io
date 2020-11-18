@@ -85,7 +85,6 @@ pyparsing==2.4.6
 pyRFC3339==1.1
 python-dateutil==2.7.3
 python-gilt==1.2.3
-python-ldap==3.3.1
 python-slugify==4.0.1
 pytz==2019.3
 pywinrm==0.3.0
