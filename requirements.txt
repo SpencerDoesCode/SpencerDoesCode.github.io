@@ -4,7 +4,6 @@ ansible-lint==4.2.0
 ansible-test==1.0.1
 apache-libcloud==2.8.0
 appdirs==1.4.4
-apturl==0.5.2
 argcomplete==1.8.1
 arrow==0.15.7
 asgiref==3.3.1
