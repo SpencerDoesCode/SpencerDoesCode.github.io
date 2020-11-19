@@ -8,17 +8,17 @@ var totalSeconds = 0;
 setInterval(setTime, 1000);
 
 function setTime() {
-  ++totalSeconds;
-  secondsLabel.innerHTML = pad(totalSeconds % 60);
-  minutesLabel.innerHTML = pad(parseInt(totalSeconds / 60));
+  totalSeconds++;
+  secondsLabel.innerHTML = padTime(totalSeconds % 60);
+  minutesLabel.innerHTML = padTime(parseInt(totalSeconds / 60));
 }
 
-function pad(val) {
-  var valString = val + "";
-  if (valString.length < 2) {
-    return "0" + valString;
+function padTime(value) {
+  var valStr = value + "";
+  if (valStr.length < 2) {
+    return "0" + valStr;
   } else {
-    return valString;
+    return valStr;
   }
 }
 </script>
